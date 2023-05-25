@@ -79,7 +79,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
   margin: 5% 0;
-  background-image: url("me.jpg");
+/*  background-image: url("me.jpg");*/
 }
 
 .circle img {
