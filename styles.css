@@ -2,72 +2,47 @@ body {
   background-image: url("cube.gif");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
-.green-overlay {
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsl(30, 0%, 80%, .50);
+  background-color: hsl(40, 100%, 90%, .20);
   pointer-events: none;
-  z-index: -1; /* Set z-index to a negative value to place it behind the content */
+  z-index: -1;
 }
 
 #title {
-     width: 400px;
-     text-align: center;
-     margin: 5px auto 0;
+  width: 400px;
+  text-align: center;
+  margin: 5px auto 0;
 }
 
-#content1 {
-     width: 100vw;
-     text-align: center;
-     margin: 0px 5px 0;
-
-}
-
-.menu {
-  padding: 10px;
+.flex-container {
   display: flex;
-  justify-content: center;
-
+  margin: 5%;
 }
 
-.menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  width: 100%;
-}
-
-.menu ul li {
-  display: center;
-  flex-grow: 1;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  color: #333;
-  padding: 5px 10px;
+#tagline {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
 }
-
-.menu ul li a:hover {
-  background-color: rgba(51, 51, 51, 0.5);
-  color: #fff;
-}
-
 
 .meDiv {
   display: flex;
   justify-content: center;
-  width: 100vw;
-  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .circle {
@@ -76,44 +51,71 @@ body {
   align-items: center;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
   overflow: hidden;
   margin: 5% 0;
-/*  background-image: url("me.jpg");*/
 }
 
 .circle img {
-
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-
-.menu.bottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+.menu {
   padding: 10px;
   display: flex;
   justify-content: center;
 }
 
+.cont-menu {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
 
+.menu ul,
+.cont-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+
+.menu ul li,
+.cont-menu ul li {
+  display: center;
+  flex-grow: 1;
+}
+
+.menu ul li a,
+.cont-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li a:hover,
+.cont-menu ul li a:hover {
+  background-color: rgba(51, 51, 51, 0.5);
+  color: #fff;
+}
 
 h1 {
-  color: hsl(120, 60%, 34%, 0.80);
+  color: hsl(120, 60%, 20%, 0.80);
   font-family: "Helvetica";
-  text-shadow: 1px 1px 10px hsla(0, 0%, 100%, 0.9);
+  text-shadow: 1px 1px 10px hsla(30, 5%, 100%, 0.9);
   font-size: 34px;
   text-align: center;
 }
 
 h2 {
-  color: hsl(120, 60%, 34%, 0.80);
+  color: hsl(120, 60%, 20%, 0.80);
   font-family: "Helvetica";
-  text-shadow: 1px 1px 10px hsla(0, 0%, 100%, 0.9);
+  text-shadow: 1px 1px 10px hsla(30, 5%, 100%, 0.9);
   font-size: 90px;
   text-align: center;
   margin: 5px 0;
@@ -122,7 +124,6 @@ h2 {
 p {
   color: black;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
-  font-size: 12 px;
+  font-size: 12px;
   text-align: center;
 }
-  

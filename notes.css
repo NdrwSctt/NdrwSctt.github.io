@@ -1,0 +1,22 @@
+/* Styles for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 767px) {
+  /* Update styles for elements */
+  body {
+    /* Mobile-specific styles */
+  }
+  /* ... */
+}
+
+/* Styles for screens between 768px and 1024px (typical tablet devices) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Update styles for elements */
+  body {
+    /* Tablet-specific styles */
+  }
+  /* ... */
+}
+
+/* Default styles for screens larger than 1024px (desktop) */
+body {
+  /* Default styles for larger screens */
+}
