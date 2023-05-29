@@ -1,3 +1,5 @@
+/*Update your CSS styles using media queries to apply specific styles for different screen sizes. For example:*/
+
 /* Styles for screens smaller than 768px (typical mobile devices) */
 @media (max-width: 767px) {
   /* Update styles for elements */
