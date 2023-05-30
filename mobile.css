@@ -1,4 +1,3 @@
-@media (max-width: 1000px) {
 .bg {
   width: 100vw;
   height: 100vh;
@@ -152,7 +151,4 @@ p {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
   font-size: 12px;
   text-align: center;
-}
-
-
 }
