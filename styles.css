@@ -3,6 +3,7 @@
   width: 100vw;
   height: 100vh;
   position: fixed;
+  
 }
 
 .bg-im {
@@ -32,7 +33,7 @@
 .container {
   width: 100vw;
   height: 100vh;
-  margin: 10% 0%;
+/*  margin: 2vh 0%;*/
 
 
 }
