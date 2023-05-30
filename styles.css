@@ -127,16 +127,16 @@
 
 .menu ul li a:hover,
 .cont-menu ul li a:hover {
-  background-color: hsl(40, 100%, 90%, .90);
+  background-color: hsl(30, 60%, 50%, .50);
   box-shadow: inset 0 0 15px hsla(180, 100%, 25%, .90);
 }
 
 
 h1 {
   -webkit-font-smoothing: subpixel-antialiased;
-  color: hsl(120, 100%, 20%);
+  color: hsl(150, 100%, 20%);
   font-family: "Ultra";
-  text-shadow: 5px 10px 10px hsla(120, 100%, 50%, 1);
+  text-shadow: 3px 3px 1px hsla(150, 100%, 50%, 1);
   font-weight: normal;
   font-size: 34px;
   text-align: center;
@@ -144,9 +144,9 @@ h1 {
 
 h2 {
   -webkit-font-smoothing: subpixel-antialiased;
-  color: hsl(120, 100%, 20%);
+  color: hsl(165, 100%, 20%);
   font-family: "Ultra";
-  text-shadow: 5px 10px 10px hsla(120, 100%, 50%, 1);
+  text-shadow: 5px 5px 5px hsla(165, 100%, 50%, 1);
   font-weight: normal;
   font-size: 90px;
   text-align: center;
