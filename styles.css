@@ -32,6 +32,8 @@
 .container {
   width: 100vw;
   height: 100vh;
+  margin: 10% 0%;
+
 
 }
 
@@ -76,10 +78,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
-  margin: 5% 0;
+  margin: 0 0;
 }
 
 .circle img {
