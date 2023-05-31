@@ -39,6 +39,7 @@
   min-width: 1400px;
   max-height: 100%;
   margin: auto;
+  overflow-y: scroll;
 
 
 }
@@ -159,3 +160,58 @@ p {
   font-size: 12px;
   text-align: center;
 }
+
+
+/*WRITING*/
+/*WRITING*/
+/*WRITING*/
+/*WRITING*/
+/*WRITING*/
+/*WRITING*/
+
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.work_a {
+  width: 600px;
+  height: 300px;
+  margin: 5px 5px 5px 5px;
+  /* top, right, bottom, left */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.work_a a {
+  text-decoration: none;
+}
+
+.work_b {
+  width: 600px;
+  height: 300px;
+  margin: 5px 5px 5px 5px;
+
+}
+
+.work_b img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.highlight-on-hover:hover {
+  width: 600px;
+  height: 300px;
+  background-color: hsl(30, 60%, 50%, .50);
+  box-shadow: inset 0 0 15px hsla(180, 100%, 25%, .90);
+}
+
+
