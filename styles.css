@@ -1,3 +1,10 @@
+.w-dropdown-toggle{
+  z-index: 5;
+}
+
+.w-icon-dropdown{
+  z-index: 5;
+}
 
 .bg {
   width: 100vw;
@@ -236,7 +243,13 @@ p {
 
 }
 
-.work_item {
+.work_item_a {
+  flex-direction: row;
+  display: flex;
+
+}
+
+.work_item_b {
   flex-direction: row;
   display: flex;
 
@@ -251,7 +264,7 @@ p {
 }
 
 .work2 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .work_a {
@@ -396,3 +409,37 @@ p {
   align-items: left;
   flex-direction: column;
 }
+
+.special {
+  width: 500px;
+  height: 250px;
+  margin: 5px 5px 5px 5px;
+  /* top, right, bottom, left */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_special {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+
+}
+
+
+/*DROPPY*/
+/*DROPPY*/
+/*DROPPY*/
+/*DROPPY*/
+/*DROPPY*/
+/*DROPPY*/
+/*DROPPY*/
+/*DROPPY*/
+/*DROPPY*/
+
+
+

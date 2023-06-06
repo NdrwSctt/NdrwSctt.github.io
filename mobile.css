@@ -1,3 +1,4 @@
+
 .bg {
   width: 100vw;
   height: 100vh;
@@ -29,7 +30,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsl(40, 100%, 90%, .20);
+  background-color: hsl(40, 20%, 100%, .30);
   pointer-events: none;
   z-index: -1;
 }
@@ -88,14 +89,23 @@
 
 .menu {
   padding: 10px;
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
 .cont-menu {
   padding: 10px;
-  display: flex;
+  display: none;
   justify-content: center;
+}
+
+.menu ul,
+.cont-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
 }
 
 .menu ul,
@@ -130,6 +140,7 @@
   box-shadow: inset 0 0 15px hsla(180, 100%, 25%, .90);
 }
 
+
 h1 {
   -webkit-font-smoothing: subpixel-antialiased;
   color: hsl(120, 100%, 20%);
@@ -142,18 +153,120 @@ h1 {
 
 h2 {
   -webkit-font-smoothing: subpixel-antialiased;
-  color: hsl(120, 100%, 20%);
+  color: hsl(165, 100%, 20%);
   font-family: "Ultra";
-  text-shadow: 5px 10px 10px hsla(120, 100%, 50%, 1);
+  text-shadow: 5px 5px 5px hsla(165, 100%, 50%, 1);
   font-weight: normal;
   font-size: 40px;
   text-align: center;
   margin: 5px 0;
 }
 
+h3 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: hsl(150, 100%, 20%);
+  font-family: "Ultra";
+  text-shadow: 2px 2px 1px hsla(150, 100%, 50%, 1);
+  font-weight: normal;
+  font-size: 25px;
+  text-align: left;
+}
+
+h4 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: hsl(165, 100%, 20%);
+  font-family: "Ultra";
+  text-shadow: 1px 1px 1px hsla(165, 100%, 50%, 1);
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+}
+
+h5 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: hsl(165, 100%, 20%);
+  font-family: "Ultra";
+  text-shadow: 1px 1px 1px hsla(165, 100%, 50%, 1);
+  font-weight: normal;
+  font-size: 24px;
+  text-align: left;
+  margin: 0 0 0 0;
+}
+
+
 p {
-  color: black;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
-  font-size: 12px;
+  font-family: "Merriweather";
+  color: hsla(200, 100%, 20%, 1);
+/*  text-shadow: 1px 1px 1px hsla(200, 100%, 5%, 1);*/
+  font-size: 18px;
+  text-align: left;
+  margin: 0 0 0 0;
+  line-height: 1.75;
+  word-spacing: 1.5;
+  font-weight: bold;
+}
+
+
+/*WRITING*/
+/*WRITING*/
+/*WRITING*/
+/*WRITING*/
+/*WRITING*/
+/*WRITING*/
+
+
+
+.title-b {
+  width: auto;
   text-align: center;
+  margin-top: 70px;
+  max-width: 1125;
+}
+
+.tent_tainer {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  max-width: 1125;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.work_table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work_item_a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.work_item_b {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
