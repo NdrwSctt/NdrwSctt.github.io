@@ -1,0 +1,159 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-im {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("cube.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: -1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(40, 100%, 90%, .20);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.container {
+  max-width: 350px;
+  max-height: auto;
+  overflow: auto;
+}
+
+#title {
+  width: 400px;
+  text-align: center;
+  margin: 5px auto 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+#tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.meDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 5% 0;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.cont-menu {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul,
+.cont-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu ul li,
+.cont-menu ul li {
+  display: center;
+  flex-grow: 1;
+}
+
+.menu ul li a,
+.cont-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li a:hover,
+.cont-menu ul li a:hover {
+  background-color: hsl(40, 100%, 90%, .90);
+  box-shadow: inset 0 0 15px hsla(180, 100%, 25%, .90);
+}
+
+h1 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: hsl(120, 100%, 20%);
+  font-family: "Ultra";
+  text-shadow: 5px 10px 10px hsla(120, 100%, 50%, 1);
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: hsl(120, 100%, 20%);
+  font-family: "Ultra";
+  text-shadow: 5px 10px 10px hsla(120, 100%, 50%, 1);
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+p {
+  color: black;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  text-align: center;
+}

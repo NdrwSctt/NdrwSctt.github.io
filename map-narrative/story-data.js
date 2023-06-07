@@ -12,10 +12,7 @@ var story1 = `
 <p>
 This is the first one. I was biking back from the library where I would 
 apply for jobs because I also didn't have a functioning computer at the 
-time. I was probably high. I was surprised to return home to find the 
-weed I left a year ago was still there, along with the small cigarette-
-shaped one-hitter. Most of the time I was biking, I would take a hit 
-beforehand when I felt safe enough away from the house. I was on my 
+time. I was on my 
 way home from the library when I put this album on. In New York, I 
 would spend a couple of months obsessing over each David Bowie 
 album in chronological order. This was the next one. I was immediately 
@@ -45,7 +42,7 @@ still not available to purchase anywhere, but most of the songs now
 appear in some form on different releases. It's an extremely queer 
 album from an artist who's already an oddball. 
 </p><p>
-Sometimes I would smoke from the one-hitter and just go riding 
+Sometimes I would just go riding 
 aimlessly to be away from my family. I think when I left, they were 
 fighting about me. There's a song called "Shower Me With Lipstick" 
 where the guitar part sounds like the gears of a bike moving. A 
@@ -95,16 +92,13 @@ on a humdrum town..."
 var story5 = `
 <p>
 I was biking to the library again but stopping by Plantation Promenade 
-first. I hadn't smoked from the one-hitter yet. I think I must have been 
+first. I think I must have been 
 depositing a check a the bank on the corner. I thought maybe, I was 
 getting something from Publix, but I don't remember having a shopping 
-bag. I seem to remember not hitting it because I had to talk to 
-someone or something. I was listening to this album and hearing tinny 
+bag. I was listening to this album and hearing tinny 
 speaking parts on the first track, thinking about how it reminded me of 
 early space travel or like Syd was trying to tell me some secret 
-message, a warning maybe. I fell on my bike rather goofily. I remember 
-thinking something like, "I guess weed doesn't affect me that much if I 
-fall when I'm sober." This happened the same day I was listening to 
+message, a warning maybe. I fell on my bike rather goofily.This happened the same day I was listening to 
 <i>Saucerful of Secrets</i>. 
 </p>
 `
@@ -112,7 +106,7 @@ fall when I'm sober." This happened the same day I was listening to
 var story6 = `
 <p>
 At some point between this and the <i>Piper at the Gates of Dawn</i> 
-memory, I had smoked from the one-hitter and was stoned listening to 
+memory, I was listening to 
 this album, then through Central Park Pl to get to Broward. It was my day off 
 from the mall, and I was going to the library to apply for more jobs. I 
 wanted an entry-level position in copywriting, a job I was searching for 
@@ -135,33 +129,15 @@ This is the bus stop I would use to get to the mall. I started
 listening to <i>Bleach</i> again, an album I'd listened to since middle school. 
 The line "You're in high school again" really resonated with me because 
 I was living with my parents and taking the bus just like in high school. 
-There's also a line where it sounds like he's saying, "Gimme back my 
-algae, Mom!" At some point, my parents took my weed, thought it 
-mysteriously reappeared where I left it. We never talked about it. I 
-assumed they smoked some of it, or it was some kind of assertion of 
-dominance. They used to be big hippies. My best friend told me his 
-parents said they used to get high all the time. I don't need much of an 
-excuse to listen to Nirvana, though. I also meditated on "About a Girl"
-because I was so broke before leaving NY the person I was hooking up with
+I also, "About a Girl" reminded me of how I was so broke before leaving NY the person I was hooking up with
 had to pay for everything even though she was younger than me.
 </p>
 `
 
 var story8 = `
 <p>
-It was my day off at the mall, or the next day was my day off. In 
-undergrad, I transferred from UCF to FSU because I didn't see it till 
-freshman year and liked it better, but also because all of my friends in 
-Orlando were junkies, so I ended up learning a lot about painkillers. I 
-never really got into them because I would be too anxious to sleep, 
-thinking my heart would stop beating or I would stop breathing. It 
-seemed excessive to take a painkiller to "relax" when antianxiety 
-medication existed, but I found some pills my friend used to call 
-"Somas." I forget what the generic name for it is. He said it was weak, 
-but if you combined it with weed, it was fun. Being particularly bored, I 
-took one and walked to Walgreens around the corner to buy some 
-toiletries but also to smoke from the one-hitter. After doing so, I 
-disassociated and saw myself with a demon hovering over my right 
+It was my day off at the mall, or the next day was my day off. A little tipsy, I 
+disassociated for a moment and saw myself with a demon hovering over my right 
 shoulder, gesturing to my right, thinking I was dying for a second 
 before collecting myself and continuing to Walgreens. I was listening to 
 Elliott Smith's self-titled. I can't remember the song.
@@ -171,8 +147,7 @@ Elliott Smith's self-titled. I can't remember the song.
 var story9 = `
 <p>
 I would sometimes walk to the Promenade to get lunch on my days off 
-at the mall, and I would take this path behind the elementary school, 
-smoking from the one-hitter on the way. I remember passing by this 
+at the mall, and I would take this path behind the elementary school. I remember passing by this 
 artificial lake and listening to <i>Either/Or</i> because the song "Alameda" is 
 about walking, and the tempo matches a walking pace intentionally 
 well. I remember relating to a line in "Rose Parade" about "ridiculous 
