@@ -68,7 +68,8 @@ remembered that it stayed open later than the public one. This might
 have been the same night I was listening to <i>Yas Dudette</i>. This location 
 is about where I realized I didn't have my NSU library card on me, just 
 as Manson was saying, "Hey! You're going the wrong way," and I turned 
-around to go back towards my house. I had an NSU card because I 
+around to go back towards my house. It's a really good album, if you can get past
+everything else about Charles Manson. <br>I had an NSU card because I 
 went to Nova High across the street, and, as a gifted and AP student, 
 some teachers wanted us to check out a collegiate-level library to do 
 research for something. I just remembered it was no longer in my wallet
@@ -209,7 +210,7 @@ different bars in the area, reading Norman Mailer's <i>Barbary Shore</i>.
 var story13 = `
 <p>
 I was reading something, I can't remember what specifically, but I was listening 
-to Chopin on shuffle lying on the couch, and the sun was in the perfect position to 
+to Chopin on shuffle while lying on the couch, and the sun was in the perfect position to 
 shine directly into my eyes.
 </p>
 `

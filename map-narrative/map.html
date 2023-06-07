@@ -115,7 +115,7 @@ WHATEVER INTRODUCTORY TEXT YOU WANT CAN GO INTO THE STORYPLACE DIV
 		<div id='headPlace'> Rollover to get info</div>
 	</div>
 	
-	<div id='storyPlace'>This is a map of flashbulb memories associated with certain albums that are burned into my brain from a time of my life I would like to forget. In undergrad, when my parents found out I was trying to get an English degree, they cut me off financially and tried to force me to drop out. I ended up graduating with a humanities degree before trying to move to New York with my friends. I sold my car to pay for rent, so when I had to move back home after not finding a job, I had no method of transportation outside of my sister's old hybrid bike from high school. The pinpoints indicate locations of specific memories I had the first few months I moved back when I was completely distraught leading up to the time I had saved enough money to buy a motorcycle. The memories are moments I strongly associated with what I was listening to for whatever reason, which helped me work through this difficult time.</div>
+	<div id='storyPlace'>This is a map of flashbulb memories associated with certain albums that are burned into my brain from a time of my life I would like to forget. After a dispute with my parents, I ended up graduating with a humanities undergradute degree before trying to move to New York with my friends. I sold my car to pay for rent, so when I had to move back home after not finding a job, I had no method of transportation outside of my sister's old hybrid bike from high school. The pinpoints indicate locations of specific memories I had the first few months I moved back when I was completely distraught leading up to the time I had saved enough money to buy a motorcycle. The memories are moments I strongly associated with what I was listening to for whatever reason, which helped me work through this difficult time.</div>
 	
 	<!-- 
 INSIDE THE MAP DIV  ARE TWO THINGS, THE HEADLINE AND THE DROP-DOWN MENU
@@ -306,32 +306,33 @@ map.fitBounds(bounds,{ padding: 200, linear: true }); //padding is needed for na
 
 	</script>
 	<script>
-	// this part is J query / with some mapbox JavaScript
-	// it changes what is displayed based on the pulldown menu
-		var groupsObj = {};
+		var groupsSet = new Set();
 
-		$(document).ready(function () {
-			infoData.features.forEach(function (feature) {
-				groupsObj[feature.properties.group_id] = feature.properties.group_name;
-			})
+	    $(document).ready(function () {
+	      infoData.features.forEach(function (feature) {
+	        groupsSet.add(feature.properties.group_name);
+	      });
 
-			$.each(groupsObj, function (key, value) {
-				$('#select-menu')
-					.append($("<option></option>")
-						.attr("value", value)
-						.text(value));
-			});
+	      var groupsArray = Array.from(groupsSet);
 
-			$('#select-menu').change(function () {
-				var selectedGroup = $('#select-menu').val();
+	      groupsArray.forEach(function (group) {
+	        $('#select-menu')
+	          .append($("<option></option>")
+	            .attr("value", group)
+	            .text(group));
+	      });
 
-				if (!selectedGroup) {
-					map.setFilter('datalayer', null);
-				} else {
-					map.setFilter('datalayer', ['==', ['get', 'group_name'], selectedGroup]);
-				}
-			});
-		});
+	      $('#select-menu').change(function () {
+	        var selectedGroup = $('#select-menu').val();
+
+	        if (!selectedGroup) {
+	          map.setFilter('datalayer', null);
+	        } else {
+	          map.setFilter('datalayer', ['==', ['get', 'group_name'], selectedGroup]);
+	        }
+	      });
+	    });
+	    
 	</script>
 
 
