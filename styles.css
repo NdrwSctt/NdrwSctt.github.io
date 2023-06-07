@@ -1,10 +1,35 @@
-.w-dropdown-toggle{
-  z-index: 5;
+/* Dropdown Button */
+/*.dropbtn {
+  background-image: url("menu.png");
+  background-size: cover;
+  background-color: hsla(30, 50%, 100%, .30);
+  box-shadow: 2px 2px 5px 3px hsla(30, 50%, 100%, .30);
+  height: 200px;
+  width: 200px ;
+  border: none;
+  cursor: pointer;
+}*/
+
+.dropbtn {
+  display: none;
+}
+.dropdown {
+  display: none;
 }
 
-.w-icon-dropdown{
-  z-index: 5;
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
 }
+
+.dropbtn2 {
+  display: none;
+}
+.dropdown-content2 {
+  display: none;
+}
+
 
 .bg {
   width: 100vw;
@@ -13,8 +38,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .bg-im {
@@ -51,7 +74,7 @@
 
 }
 
-#title {
+.title {
   width: auto;
   text-align: center;
   margin: 0 auto 0;
@@ -142,8 +165,8 @@
 
 h1 {
   -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Elsie";
   color: hsl(150, 100%, 20%);
-  font-family: "Ultra";
   text-shadow: 3px 3px 1px hsla(150, 100%, 50%, 1);
   font-weight: normal;
   font-size: 34px;
@@ -152,51 +175,51 @@ h1 {
 
 h2 {
   -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Oi";
   color: hsl(165, 100%, 20%);
-  font-family: "Ultra";
   text-shadow: 5px 5px 5px hsla(165, 100%, 50%, 1);
   font-weight: normal;
-  font-size: 90px;
+  font-size: 80px;
   text-align: center;
   margin: 5px 0;
 }
 
 h3 {
   -webkit-font-smoothing: subpixel-antialiased;
-  color: hsl(150, 100%, 20%);
   font-family: "Ultra";
-  text-shadow: 2px 2px 1px hsla(150, 100%, 50%, 1);
+  color: hsl(180, 100%, 20%);
+  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);
   font-weight: normal;
-  font-size: 25px;
+  font-size: 30px;
   text-align: left;
 }
 
 h4 {
   -webkit-font-smoothing: subpixel-antialiased;
-  color: hsl(165, 100%, 20%);
-  font-family: "Ultra";
-  text-shadow: 1px 1px 1px hsla(165, 100%, 50%, 1);
-  font-weight: normal;
-  font-size: 18px;
+  font-family: "DM Serif Text";
+  color: hsl(220, 100%, 30%);
+  text-shadow: 2px 2px 1px hsla(220, 100%, 80%, 1);
+  font-weight: bold;
+  font-size: 20px;
   text-align: left;
 }
 
 h5 {
   -webkit-font-smoothing: subpixel-antialiased;
-  color: hsl(165, 100%, 20%);
   font-family: "Ultra";
-  text-shadow: 1px 1px 1px hsla(165, 100%, 50%, 1);
-  font-weight: normal;
-  font-size: 24px;
+  color: hsl(180, 100%, 20%);
+  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);
+  font-weight: bold;
+  font-size: 25px;
   text-align: left;
-  margin: 0 0 0 0;
+  margin-bottom: 10px;
 }
 
 
 p {
   font-family: "Merriweather";
-  color: hsla(200, 100%, 20%, 1);
-/*  text-shadow: 1px 1px 1px hsla(200, 100%, 5%, 1);*/
+  color: hsl(220, 100%, 20%);
+  text-shadow: 2px 2px 1px hsla(220, 100%, 90%, .7);
   font-size: 18px;
   text-align: left;
   margin: 0 0 0 0;

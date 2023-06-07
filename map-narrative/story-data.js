@@ -205,3 +205,11 @@ romantic night with her and wouldn't let me back in till 2 am. I went to
 different bars in the area, reading Norman Mailer's <i>Barbary Shore</i>.
 </p>
 `
+
+var story13 = `
+<p>
+I was reading something, I can't remember what specifically, but I was listening 
+to Chopin on shuffle lying on the couch, and the sun was in the perfect position to 
+shine directly into my eyes.
+</p>
+`
