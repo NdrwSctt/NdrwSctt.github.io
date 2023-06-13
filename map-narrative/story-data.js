@@ -18,10 +18,7 @@ would spend a couple of months obsessing over each David Bowie
 album in chronological order. This was the next one. I was immediately 
 comforted by the sound of train tracks at the beginning because, for 
 some reason, my parents paid for me to come back by train instead of a 
-plane. I also associated with the line about cocaine because, in New 
-York, my close friend and roommate had a bit of a problem, and I ended 
-up doing quite a bit of it for free just by being around him. The memory 
-I have associated with first hearing this album is riding by the gas 
+plane. The memory I have associated with first hearing this album is riding by the gas 
 station around here, looking at something being constructed, and 
 thinking about how pavement would taste as I often did when riding. 
 This was happening as the train sounds return, and Bowie starts 
