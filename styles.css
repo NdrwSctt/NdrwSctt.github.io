@@ -301,6 +301,17 @@ p {
   flex-direction: column;
 }
 
+.work_a2 {
+  width: 500px;
+  height: 250px;
+  margin: 5px 5px 5px 5px;
+  /* top, right, bottom, left */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .work_a_container {
   display: flex;
   justify-content: center;
@@ -359,6 +370,10 @@ p {
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.pub-tainer a {
+  text-decoration: none;
 }
 
 
