@@ -65,8 +65,8 @@ remembered that it stayed open later than the public one. This might
 have been the same night I was listening to <i>Yas Dudette</i>. This location 
 is about where I realized I didn't have my NSU library card on me, just 
 as Manson was saying, "Hey! You're going the wrong way," and I turned 
-around to go back towards my house. It's a really good album, if you can get past
-everything else about Charles Manson. <br>I had an NSU card because I 
+around to go back towards my house. It's a really good album if you can get past
+everything else about Charles Manson. <br> <br> I had an NSU card because I 
 went to Nova High across the street, and, as a gifted and AP student, 
 some teachers wanted us to check out a collegiate-level library to do 
 research for something. I just remembered it was no longer in my wallet
@@ -96,26 +96,25 @@ getting something from Publix, but I don't remember having a shopping
 bag. I was listening to this album and hearing tinny 
 speaking parts on the first track, thinking about how it reminded me of 
 early space travel or like Syd was trying to tell me some secret 
-message, a warning maybe. I fell on my bike rather goofily.This happened the same day I was listening to 
-<i>Saucerful of Secrets</i>. 
+message, a warning maybe. I fell on my bike rather goofily. This happened 
+the same day I was listening to <i>Saucerful of Secrets</i>. 
 </p>
 `
 
 var story6 = `
 <p>
-At some point between this and the <i>Piper at the Gates of Dawn</i> 
-memory, I was listening to 
-this album, then through Central Park Pl to get to Broward. It was my day off 
+After the <i>Piper at the Gates of Dawn</i> memory, I started listening 
+to this album, taking Central Park Pl to get to Broward. It was my day off 
 from the mall, and I was going to the library to apply for more jobs. I 
-wanted an entry-level position in copywriting, a job I was searching for 
+wanted an entry-level position in copywriting,  job I had searched for
 since I moved to New York. I was passing the ramp for cars to exit the 
 gas station listening to "Set the Controls for the Heart of the Sun." I 
 remember seeing the back of the woman's ponytail as she was looking 
 for traffic. Most people drive in Florida, so she didn't check the sidewalk 
-before pulling out. The bike continued moving forward with me on it for a 
+before pulling out. The bike skidded forward with me on it for a 
 couple of sidewalk blocks before I crashed into the ground because she 
 bent my rear tire. I sat up on the sidewalk and looked back as the car 
-sped off. I wasn't wearing a helmet. But I was fine, maybe scrapped up a 
+sped off. I wasn't wearing a helmet, but I was fine, maybe scrapped up a 
 little. My mom came to pick me up. We threw away the bike on bulk 
 pickup day.  
 </p>
@@ -124,7 +123,7 @@ pickup day.
 var story7 = `
 <p>
 This is the bus stop I would use to get to the mall. I started 
-listening to <i>Bleach</i> again, an album I'd listened to since middle school. 
+listening to <i>Bleach</i> again, an album I enjoyed since middle school. 
 The line "You're in high school again" really resonated with me because 
 I was living with my parents and taking the bus just like in high school. 
 I also, "About a Girl" reminded me of how I was so broke before leaving NY the person I was hooking up with
@@ -145,7 +144,7 @@ Elliott Smith's self-titled. I can't remember the song.
 var story9 = `
 <p>
 I would sometimes walk to the Promenade to get lunch on my days off 
-at the mall, and I would take this path behind the elementary school. I remember passing by this 
+at the mall. I would take the path behind the elementary school. I remember passing by this 
 artificial lake and listening to <i>Either/Or</i> because the song "Alameda" is 
 about walking, and the tempo matches a walking pace intentionally 
 well. I remember relating to a line in "Rose Parade" about "ridiculous 
@@ -188,7 +187,7 @@ undergrad when I started getting into poetry as an adult.
 var story12 = `
 <p>
 I became obsessed with James Ferraro after he released <i>Cold</i> when I 
-was in New York. I got into his instrumental work, particularly <i>Suki Girlz</i>, 
+was in New York. I got into his instrumental work, particularly <i>Suki Girlz</i> 
 because it was so great to have on while reading. Somehow I didn't get 
 around to hearing this album till after I moved back home. I remember 
 listening to it in my mom's car in the parking lot of this shopping center 

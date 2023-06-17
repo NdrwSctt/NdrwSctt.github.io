@@ -3,26 +3,15 @@
 
 <head>
 
-	<title>Your Map</title>
+	<title>Flashbulb Memories</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- 
-THESE ARE CALLS TO DIFFERENT EXTERNAL FILES
-MAPBOX HAS A JAVASCRIPT LIBRARY THAT YOU NEED
-THE NEXT IS A CSS FILE FOR THE MAP
-AND THE FINAL ONE IS THE LIBRARY FOR JQUERY, WHICH I USE FOR THE PULLDOWN MENU.
- -->
+	
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<!-- 
-THESE ARE CSS STYLES WHAT YOU SHOULD FREELY PLAY WITH
-THE STYLES THAT BEGIN WITH # RELATE TO IDS, 
-THE ONES THAT BEGIN WITH . RELATE TO CLASSES
-WHEN YOU GOT EVERYTHING WORKING YOU CAN PLAY WITH THESE AND ADD TO THESE 
-TO MAKE YOUR FONTS AND LAYOUTS NICE AND LOVELY
- -->
+
 	<style>
 		::-webkit-scrollbar {
 			width: 0px;
@@ -98,13 +87,6 @@ TO MAKE YOUR FONTS AND LAYOUTS NICE AND LOVELY
 
 
 
-	<!-- 
-THE DIVS BELOW ARE SUPER IMPORTANT:
-THEY ARE WHERE THE MAP WILL GO, AND YOUR STORY TEXT WILL GO
-YOU WILL CERTAINLY WANT TO STYLE THESE, BOTH THEIR PLACEMENT AND CONTENT 
-THE MAP SHOULD BE EMPTY.
-WHATEVER INTRODUCTORY TEXT YOU WANT CAN GO INTO THE STORYPLACE DIV
- -->
 
 	<div id='map'>
 		<div id="dropdown">
@@ -117,53 +99,18 @@ WHATEVER INTRODUCTORY TEXT YOU WANT CAN GO INTO THE STORYPLACE DIV
 	
 	<div id='storyPlace'>This is a map of flashbulb memories associated with certain albums that are burned into my brain from a time of my life I would like to forget. After a dispute with my parents, I ended up graduating with a humanities undergradute degree before trying to move to New York with my friends. I sold my car to pay for rent, so when I had to move back home after not finding a job, I had no method of transportation outside of my sister's old hybrid bike from high school. The pinpoints indicate locations of specific memories I had the first few months I moved back when I was completely distraught leading up to the time I had saved enough money to buy a motorcycle. The memories are moments I strongly associated with what I was listening to for whatever reason, which helped me work through this difficult time.</div>
 	
-	<!-- 
-INSIDE THE MAP DIV  ARE TWO THINGS, THE HEADLINE AND THE DROP-DOWN MENU
 
-
-DROP-DOWN MENU: THE ID select–menu IS USED BY THE JQUERY FUNCTION WAY DOWN AT THE BOTTOM
-THIS HTML SETS UP THE PULLDOWN MENU
-IF YOU HAVE MULTIPLE GROUPS THE JQUERY AT THE BOTTOM 
-WILL UPDATE THE SELECT MENU FOR YOU
-
-HEADLINE: NOTE, YOU CAN USE THE STABLE DIV TO SHOW THE HEADLINE
-OR POP-UPS. IN THIS TEMPLATE THE POP-UPS ARE COMMENTED OUT
-YOU CAN UN-COMMENT THEM TO MAKE THEM ACTIVE.
- -->
- 
- 	<!-- 
-THIS IS WHERE THE BROWSER LOADS IN YOUR STORY DATA INFORMATION
-IT WILL HOLD VARIABLES SO YOU CAN PUT IT IN THE LONGER MORE COMPLEX HTML 
-THAT WILL APPEAR IN THE storyPlace DIV WHEN A POINT IS CLICKED-->
 
 	<script type="text/javascript" src="story-data.js"></script>
 
 
-	<!-- 
-THIS IS WHERE THE BROWSER LOADS IN YOUR GEOJSON INFORMATION
-MAKING IT A JAVASCRIPT FILE .js, RATHER THAN A GEOJSON FILE
-ALLOWS YOU TO LOAD IT LOCALLY WITHOUT DEALING WITH SETTING UP SERVERS ON YOUR MACHINE.
- -->
+	
 
 	<script type="text/javascript" src="geo-data.js"></script>
 
-	<!-- 
-HERE BEGINS ALL THE SCRIPT THAT SETS UP THE MAP 
-ALL THE COMMENTS FROM HERE WE'LL BE IN JAVASCRIPT COMMENTS //
- -->
 
 	<script type="text/javascript">
-// these seven lines maybe the only lines you need to edit
-// you should put in your own access token
-// you can change the style of the tiles
-// as well as the center and the zoom
-// but note that way down below around line 300
-// it is automatically centering the map based on your points
-//If you want to control the centering and zoom yourself, comment out those line.
 
-//This is my accessToken which I will be deactivating in a month
-// if you plan to share your map, or do a final project using this map 
-//please sign up to get your own free access token
 		mapboxgl.accessToken = 'pk.eyJ1IjoianRoaXJraWVsZDMiLCJhIjoiY2xnNWQxa3BrMDFxMTNycWlhZHFueXloaSJ9.YDRRcmhPezeVbHP78LFiUg';
 
 		var map = new mapboxgl.Map({
@@ -291,9 +238,6 @@ ALL THE COMMENTS FROM HERE WE'LL BE IN JAVASCRIPT COMMENTS //
 				updateStory(e)
 			})
 
-// very important!! this automatically centers the map and zooms it
-//comment out everything below this until the <script> tag
-//if you want to control the exact center in zoom on your own (lines 172-173)
 
  			var bounds = new mapboxgl.LngLatBounds();
 
