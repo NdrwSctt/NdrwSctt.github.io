@@ -24,17 +24,17 @@ infoData = {
         "type": "Point"
       }
     },
-    {
-      "type": "Feature",
-      "properties": {"name": "Lie: The Love and Terror Cult", "group_name": "On Bike", "group_id": 3, "placeName": "Lie: The Love and Terror Cult", "story": story3, "color": "#01FE26", "radius": "15" },
-      "geometry": {
-        "coordinates": [
-          -80.25078371231287,
-          26.083399851736928
-        ],
-        "type": "Point"
-      }
-    },
+    // {
+    //   "type": "Feature",
+    //   "properties": {"name": "Lie: The Love and Terror Cult", "group_name": "On Bike", "group_id": 3, "placeName": "Lie: The Love and Terror Cult", "story": story3, "color": "#01FE26", "radius": "15" },
+    //   "geometry": {
+    //     "coordinates": [
+    //       -80.25078371231287,
+    //       26.083399851736928
+    //     ],
+    //     "type": "Point"
+    //   }
+    // },
     {
       "type": "Feature",
       "properties": {"name": "Hatful of Hollow", "group_name": "On Bus", "group_id": 4, "placeName": "Hatful of Hollow", "story": story4, "color": "#329CFF", "radius": "15" },
