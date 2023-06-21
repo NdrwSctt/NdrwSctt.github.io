@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+     <title>Tracking Wealth</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style> body{padding: 0; margin: 0; overflow: scroll;}</style>
+     <script src="../p5.min.js"></script>
+     <script src="sketch.js"></script>
+     <script src="myData.js"></script>
+     <script src="functions.js"></script>
+</head>
+<style>
+body {
+    margin: 0;
+}    
+#title {
+     width: 400px;
+     text-align: center;
+     margin: 2% auto 0;
+     font-family: "Merriweather";
+     font-size: 25px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#container {
+     width: 275px;
+     border: 1px solid black;
+     font-family: "Merriweather";
+     margin: 1% 2%;
+     position: relative;
+     background-color: white;
+     padding: 5px;
+     font-size: 16px;
+}
+
+#orderOptions {
+     margin: 1% 2%;
+     font-family: "Merriweather";
+     font-size: 12px;
+
+}
+#byIndex {
+     font-family: "Merriweather";
+     font-size: 10px;
+     background-color: white;
+}
+#byCEO {
+     font-family: "Merriweather";
+     font-size: 10px;
+     background-color: white;
+}
+#byMedian {
+     font-family: "Merriweather";
+     font-size: 10px;
+     background-color: white;
+}
+#byRatio {
+     font-family: "Merriweather";
+     font-size: 10px;
+     background-color: white;
+}
+
+#output {
+     width: 265px;
+     height: 50vh;
+     margin: 5px 10px;
+     overflow: auto;
+     background-color: white;
+     font-size: 14px;
+     font-family: "Merriweather";
+     z-index:1;
+}
+#containerB {
+    border: 1px solid black;
+    width: 75px;
+    font-family: "Merriweather";
+    margin: 1% 2%;
+    padding: 5px;
+    background-color: white;
+    font-size: 16px;
+}
+
+
+#outputB {
+     width: 75px;
+     height: 75px;
+     margin: 1% 1%;
+     text-align: center;
+     overflow: auto;
+     background-color: white;
+     font-size: 14px;
+     font-family: "Merriweather";
+     z-index:1;
+}
+
+#company-text {
+  position: sticky; /* Make the text sticky */
+  top: 0; /* Stick it to the top of the container */
+  background-color: white; /* Hide the text behind the div */
+  z-index: 1; /* Make the text appear on top of other elements */
+}
+
+canvas {position: absolute; left: 0px; top: 0px; z-index: -1; vertical-align: top;} 
+</style>
+
+
+<body>
+
+
+<div id="title"><B>Tracking Wealth</B><BR><BR></div>
+
+<div id="containerB">
+     <div id="outputB"></div>
+</div>
+
+<div id="orderOptions">
+     <B>Order by:</B>
+     <button id="byIndex" onclick="sortIndex()">A - Z</button>
+     <button id="byCEO" onclick="sortCeo()">CEO Pay</button>
+     <button id="byMedian" onclick="sortMedian()">Median Salary</button>
+     <button id="byRatio" onclick="sortRatio()">Pay Ratio</button>
+
+</div>
+
+
+<div id="container">
+     <div id="company-text"><b><u>Russell 3000 Companies</b></u></div>
+     <div id="output"></div>
+</div>
+
+
+</body>
+</html>

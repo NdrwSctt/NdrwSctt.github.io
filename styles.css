@@ -469,16 +469,8 @@ p {
 
 }
 
-
-/*DROPPY*/
-/*DROPPY*/
-/*DROPPY*/
-/*DROPPY*/
-/*DROPPY*/
-/*DROPPY*/
-/*DROPPY*/
-/*DROPPY*/
-/*DROPPY*/
-
+.no_under a {
+  text-decoration: none;
+}
 
 
