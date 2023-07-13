@@ -1,44 +1,4 @@
-/* Dropdown Button */
-/*.dropbtn {
-  background-image: url("menu.png");
-  background-size: cover;
-  background-color: hsla(30, 50%, 100%, .30);
-  box-shadow: 2px 2px 5px 3px hsla(30, 50%, 100%, .30);
-  height: 200px;
-  width: 200px ;
-  border: none;
-  cursor: pointer;
-}*/
 
-.dropbtn {
-  display: none;
-}
-.dropdown {
-  display: none;
-}
-
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-}
-
-.dropbtn2 {
-  display: none;
-}
-.dropdown-content2 {
-  display: none;
-}
-
-
-.bg {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .bg-im {
   position: fixed;
@@ -46,7 +6,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("cube.gif");
+  background-image: url("bread.gif");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -59,115 +19,26 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsl(40, 20%, 100%, .30);
+  background-color: hsl(30, 80%, 80%, .97);
   pointer-events: none;
   z-index: -1;
 }
 
-.container {
-  max-width: 1500px;
-  min-width: 1400px;
-  max-height: 100%;
-  margin: auto;
-  overflow-y: scroll;
 
 
-}
-
-.title {
-  width: auto;
-  text-align: center;
-  margin: 0 auto 0;
-}
 
 .flex-container {
   display: flex;
   margin: 0;
 }
 
-#tagline {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.meDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.circle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  margin: 0 0;
-}
-
-.circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.menu {
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-}
-
-.cont-menu {
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-}
-
-.menu ul,
-.cont-menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  width: 100%;
-}
-
-.menu ul li,
-.cont-menu ul li {
-  display: center;
-  flex-grow: 1;
-}
-
-.menu ul li a,
-.cont-menu ul li a {
-  text-decoration: none;
-  color: #333;
-  padding: 5px 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.menu ul li a:hover,
-.cont-menu ul li a:hover {
-  background-color: hsl(30, 60%, 50%, .50);
-  box-shadow: inset 0 0 15px hsla(180, 100%, 25%, .90);
-}
 
 
 h1 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Elsie";
   color: hsl(150, 100%, 20%);
-  text-shadow: 3px 3px 1px hsla(150, 100%, 50%, 1);
+  text-shadow: 3px 3px 1px hsla(180, 100%, 50%, 1);
   font-weight: normal;
   font-size: 34px;
   text-align: center;
@@ -176,8 +47,8 @@ h1 {
 h2 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Oi";
-  color: hsl(165, 100%, 20%);
-  text-shadow: 5px 5px 5px hsla(165, 100%, 50%, 1);
+  color: hsl(165, 100%, 17%);
+  text-shadow: 5px 5px 5px hsla(185, 100%, 50%, 1);
   font-weight: normal;
   font-size: 80px;
   text-align: center;
@@ -188,7 +59,7 @@ h3 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Ultra";
   color: hsl(180, 100%, 20%);
-  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);
+/*  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);*/
   font-weight: normal;
   font-size: 30px;
   text-align: left;
@@ -198,7 +69,7 @@ h4 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "DM Serif Text";
   color: hsl(220, 100%, 30%);
-  text-shadow: 2px 2px 1px hsla(220, 100%, 80%, 1);
+/*  text-shadow: 2px 2px 1px hsla(220, 100%, 80%, 1);*/
   font-weight: bold;
   font-size: 20px;
   text-align: left;
@@ -208,7 +79,7 @@ h5 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Ultra";
   color: hsl(180, 100%, 20%);
-  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);
+/*  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);*/
   font-weight: bold;
   font-size: 18px;
   text-align: left;
@@ -216,12 +87,50 @@ h5 {
   margin-top: 20px;
 }
 
+h6 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Ultra";
+  color: hsl(190, 100%, 25%);
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+.h7 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Elsie";
+  color: hsl(190, 100%, 25%);
+  font-weight: normal;
+  font-size: 50px;
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+.h8 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Elsie";
+  color: hsl(190, 100%, 25%);
+  font-weight: normal;
+  font-size: 50px;
+  margin: 0 0 0 0;
+  text-align: right;
+}
+
+.h9 {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Elsie";
+  color: hsl(190, 100%, 25%);
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0 0 0 0;
+  text-align: right;
+}
 
 p {
   font-family: "Merriweather";
   color: hsl(220, 100%, 20%);
-  text-shadow: 2px 2px 1px hsla(220, 100%, 90%, .7);
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   margin: 0 0 0 0;
   line-height: 1.75;
@@ -236,6 +145,10 @@ p {
 /*WRITING*/
 /*WRITING*/
 /*WRITING*/
+
+.container {
+  margin-top: 300px;
+}
 
 .title-b {
   width: auto;
@@ -471,6 +384,227 @@ p {
 
 .no_under a {
   text-decoration: none;
+}
+
+
+.big-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.me {
+  width: 290px;
+  height: 290px;
+  object-fit: fill;
+  background-image: url("m4.jpeg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+}
+
+.post {
+  margin-left: 200px;
+}
+
+.nav-hold{
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: hsla(30, 100%, 75%, .9);
+
+}
+
+.nav {
+  display: grid;
+  width: 95%;
+  height: 75px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.node {
+  align-self: center;
+  justify-self: start;
+}
+
+.l-nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+}
+
+.social{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 5px;
+  margin-right: 5px;
+  z-index: 1;
+}
+
+.mail {
+  display: flex;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.local {
+  display: flex;
+  margin-right: 30px;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 250px;
+  z-index: 1;
+}
+
+.dropdown.active .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 18px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: hsla(30, 100%, 75%, .9);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.no-dec {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero2 {
+  width: 100vw;
+  height: auto;
+  align-items: flex-start;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.writ {
+  width: 80%;
+  height:auto;
+  justify-content: flex-start;
+
+}
+
+.her-ti {
+  width: 100%;
+  height: 75px;
+}
+
+.her-im {
+  display: flex;
+  width: 100%;
+  height: 150px;
+}
+
+.her-im-it {
+  width: 25%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.retainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 290px;
+}
+
+.cw {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+}
+
+.cw-it-link{
+  width: 35%;
+  height: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  object-fit: cover;  
+}
+
+.about-mini {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.ab-min-im {
+  width:30%;
+  margin-left: 20px;
+}
+
+.cw-it {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
 }
 
 
