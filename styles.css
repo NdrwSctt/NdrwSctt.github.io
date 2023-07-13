@@ -387,16 +387,28 @@ p {
 }
 
 
-.big-holder {
+.retainer {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 290px;
+  width: 100vw;
+}
+
+
+.big-holder {
+  width: 1194px;
+  height: auto;
+  align-items: flex-start;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
 }
 
 .hero {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 400px;
   justify-content: center;
   align-items: center;
@@ -536,7 +548,7 @@ p {
 }
 
 .hero2 {
-  width: 100vw;
+  width: 100%;
   height: auto;
   align-items: flex-start;
   display: flex;
@@ -546,7 +558,7 @@ p {
 }
 
 .writ {
-  width: 80%;
+  width: 1194px;
   height:auto;
   justify-content: flex-start;
 
@@ -570,12 +582,6 @@ p {
 }
 
 
-.retainer {
-  display: flex;
-  flex-direction: column;
-  margin-top: 290px;
-}
-
 .cw {
   display: flex;
   width: 100%;
@@ -588,7 +594,7 @@ p {
   height: 100%;
   margin-left: 100px;
   margin-right: 100px;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 .about-mini {
@@ -599,6 +605,8 @@ p {
 .ab-min-im {
   width:30%;
   margin-left: 20px;
+  object-fit: cover;
+
 }
 
 .cw-it {
@@ -607,4 +615,36 @@ p {
   object-fit: cover;  
 }
 
+.about {
+  width: 45%;
+  margin-right: 40px;
 
+}
+
+.abt-pic {
+  width: 290px;
+  height: 100%;
+  object-fit: fill;
+  background-image: url("m2.jpeg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+}
+.retainer2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100vw;
+}
+
+.big-holder2 {
+  width: 1194px;
+  height: auto;
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+}
