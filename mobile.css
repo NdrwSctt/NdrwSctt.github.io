@@ -1,31 +1,3 @@
-.no-dec {
-  text-decoration: none;
-  color: inherit;
-}
-
-.bg-im {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("bread.gif");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  z-index: -1;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: hsl(30, 80%, 80%, .97);
-  pointer-events: none;
-  z-index: -1;
-}
 
 .nav-hold{
   position: fixed;
@@ -43,6 +15,19 @@
 }
 
 .nav {
+  display: grid;
+  display: none;
+  width: 100%;
+  height: 75px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-mob {
   display: grid;
   width: 100%;
   height: 75px;
@@ -118,7 +103,9 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 250px;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(30, 100%, 75%, .9);
   z-index: 1;
 }
 
@@ -205,7 +192,7 @@ h6 {
   font-family: "Ultra";
   color: hsl(190, 100%, 25%);
   font-weight: normal;
-  font-size: 30px;
+  font-size: 50px;
   margin: 0 0 0 0;
   text-align: center;
 }

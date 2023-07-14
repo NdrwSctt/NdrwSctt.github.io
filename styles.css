@@ -1,4 +1,12 @@
 
+.no-dec {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-mob {
+  display: none;
+}
 
 .bg-im {
   position: fixed;
@@ -24,7 +32,117 @@
   z-index: -1;
 }
 
+.nav-hold{
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: hsla(30, 100%, 75%, .9);
 
+}
+
+.nav {
+  display: grid;
+  width: 95%;
+  height: 75px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.node {
+  align-self: center;
+  justify-self: start;
+}
+
+.l-nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+}
+
+.social{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 5px;
+  margin-right: 5px;
+  z-index: 1;
+}
+
+.mail {
+  display: flex;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.local {
+  display: flex;
+  margin-right: 30px;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 250px;
+  z-index: 1;
+}
+
+.dropdown.active .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 18px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: hsla(30, 100%, 75%, .9);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
 
 
 .flex-container {
@@ -397,7 +515,7 @@ p {
 
 
 .big-holder {
-  width: 1194px;
+  width: 1165px;
   height: auto;
   align-items: flex-start;
   display: flex;
@@ -426,125 +544,10 @@ p {
 }
 
 .post {
-  margin-left: 200%;
-}
-
-.nav-hold{
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: auto;
-  display: flex;
-  width: 100vw;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  background-color: hsla(30, 100%, 75%, .9);
-
-}
-
-.nav {
-  display: grid;
-  width: 95%;
-  height: 75px;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.node {
-  align-self: center;
-  justify-self: start;
-}
-
-.l-nav {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-
-.contact {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-
-}
-
-.social{
-  display: flex;
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-  margin-left: 5px;
-  margin-right: 5px;
-  z-index: 1;
-}
-
-.mail {
-  display: flex;
-  margin-right: 5px;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.local {
-  display: flex;
-  margin-right: 30px;
-  width: 100px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown:hover {
-  cursor: pointer;
+  margin-left: 10%;
 }
 
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 250px;
-  z-index: 1;
-}
-
-.dropdown.active .dropdown-content {
-  display: block;
-}
-
-.dropdown-content a {
-  color: #333;
-  padding: 18px 20px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: hsla(30, 100%, 75%, .9);
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-
-}
-
-.no-dec {
-  text-decoration: none;
-  color: inherit;
-}
 
 .hero2 {
   width: 100%;
@@ -557,7 +560,7 @@ p {
 }
 
 .writ {
-  width: 1194px;
+  width: 1165px;
   height:auto;
   justify-content: flex-start;
 
@@ -640,7 +643,7 @@ p {
 }
 
 .big-holder2 {
-  width: 1194px;
+  width: 1165px;
   height: auto;
   align-items: flex-start;
   display: flex;
