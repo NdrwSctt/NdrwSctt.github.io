@@ -8,18 +8,18 @@
   display: none;
 }
 
-body {
-  /*position: fixed;
+/*.bg-im {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;*/
+  height: 100%;
   background-image: url("bread.gif");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   z-index: -1;
-}
+}*/
 
 .overlay {
   position: fixed;
@@ -27,7 +27,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsl(30, 80%, 80%, .97);
+  background-color: hsl(30, 40%, 80%, .97);
   pointer-events: none;
   z-index: -1;
 }
@@ -125,6 +125,8 @@ body {
   position: absolute;
   min-width: 250px;
   z-index: 1;
+  background-color: hsla(30, 100%, 75%, .9);
+
 }
 
 .dropdown.active .dropdown-content {

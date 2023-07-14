@@ -1,3 +1,6 @@
+body {
+  background-color: hsla(30, 100%, 75%, .9);;
+} 
 
 .nav-hold{
   position: fixed;
@@ -7,6 +10,7 @@
   bottom: auto;
   display: flex;
   width: 100vw;
+  height: 200px;
   justify-content: center;
   align-items: center;
   z-index: 1;
@@ -90,6 +94,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 60px;
 }
 
 .dropdown {
