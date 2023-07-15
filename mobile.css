@@ -1,5 +1,5 @@
 body {
-  background-color: hsla(30, 100%, 75%, .9);;
+  background-color: hsla(30, 100%, 75%);;
 } 
 
 .nav-hold{
@@ -9,12 +9,12 @@ body {
   right: 0%;
   bottom: auto;
   display: flex;
-  width: 100vw;
+  width: 101vw;
   height: 200px;
   justify-content: center;
   align-items: center;
   z-index: 1;
-  background-color: hsla(30, 100%, 75%, .9);
+  background-color: hsla(30, 100%, 75%);
 
 }
 
