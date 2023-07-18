@@ -266,7 +266,7 @@ h6 {
 p {
   font-family: "Merriweather";
   color: hsl(220, 100%, 10%);
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
   margin: 0 0 0 0;
   line-height: 1.75;
@@ -552,6 +552,15 @@ work_a a {
   height: 400px;
   justify-content: center;
   align-items: center;
+}
+
+.hero-abt{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .me {

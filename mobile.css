@@ -166,25 +166,27 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 100px;
   text-align: center;
   margin: 5px 0;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   font-family: Gloock;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h4 {
   font-size: 30px;
   text-align: left;
-  
+
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 40px;
   text-align: left;
 }
 
@@ -207,7 +209,7 @@ h6 {
 }
 
 .h9 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0 0 0 0;
   text-align: right;
 }
@@ -221,7 +223,7 @@ h6 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 40px;
   text-align: left;
   margin: 0 0 0 0;
   line-height: 1.75;
@@ -276,7 +278,7 @@ p {
   display: flex;
   justify-items: center;
   align-items: center;
-  width: 80%;
+  width: 98%;
 
 }
 
@@ -287,6 +289,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 1000px;
 }
 
 .work_item_a a {
@@ -297,9 +300,11 @@ p {
 .work_item_b {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
+  height: 1000px;
+
 }
 
 /*.special {
@@ -327,7 +332,7 @@ p {
 }
 
 .work_a {
-  width: 80%;
+  width: 85%;
   height: 250px;
   margin: 5px 5px 5px 5px;
   /* top, right, bottom, left */
@@ -353,7 +358,6 @@ p {
   align-items: center;
   flex-direction: column;
   width: 100%;
-
 }
 
 .work_b {
@@ -506,7 +510,7 @@ p {
 
 
 .big-holder {
-  width: 800px;
+  width: 90%;
   height: auto;
   align-items: flex-start;
   display: flex;
@@ -520,6 +524,12 @@ p {
   height: 400px;
   justify-content: center;
   align-items: center;
+}
+
+.hero-abt {
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
 }
 
 .me {
@@ -615,8 +625,8 @@ p {
 }
 
 .abt-pic {
-  width: 290px;
-  height: 100%;
+  width: 800px;
+  height: 800px;
   object-fit: fill;
   background-image: url("m2.jpeg");
   background-position: 50%;
@@ -624,6 +634,7 @@ p {
   background-size: cover;
   display: block;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .retainer2 {
   display: flex;
@@ -634,7 +645,7 @@ p {
 }
 
 .big-holder2 {
-  width: 80vw;
+  width: 90vw;
   height: auto;
   align-items: flex-start;
   display: flex;
