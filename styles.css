@@ -335,6 +335,13 @@ p {
   flex-direction: column;
 }
 
+work_a a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .work_a2 {
   width: 500px;
   height: 250px;

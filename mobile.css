@@ -164,7 +164,7 @@ h1 {
 
 h2 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Oi";
+  font-family: "Elsie";
   color: hsl(165, 100%, 17%);
   text-shadow: 5px 5px 5px hsla(185, 100%, 50%, 1);
   font-weight: normal;
@@ -175,12 +175,12 @@ h2 {
 
 h3 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Ultra";
+  font-family: "Merriweather";
   color: hsl(180, 100%, 20%);
 /*  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);*/
   font-weight: normal;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
 }
 
 h4 {
@@ -189,13 +189,13 @@ h4 {
   color: hsl(220, 100%, 30%);
 /*  text-shadow: 2px 2px 1px hsla(220, 100%, 80%, 1);*/
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   text-align: left;
 }
 
 h5 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Ultra";
+  font-family: "Merriweather";
   color: hsl(180, 100%, 20%);
 /*  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);*/
   font-weight: bold;
@@ -207,7 +207,7 @@ h5 {
 
 h6 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Ultra";
+  font-family: "Elsie";
   color: hsl(190, 100%, 25%);
   font-weight: normal;
   font-size: 50px;
@@ -288,14 +288,20 @@ p {
 .tent_tainer {
   margin-top: 150px;
   margin-bottom: 150px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .work {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   display: flex;
   margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .work a {
@@ -306,27 +312,52 @@ p {
 .work_table {
   flex-direction: column;
   display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 80%;
 
 }
 
 .work_item_a {
   flex-direction: row;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
+.work_item_a a {
+  justify-content: center;
+  align-items: center;
 }
 
 .work_item_b {
-  flex-direction: row;
   display: flex;
-
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
+/*.special {
+  width: 100vw;
+  height: 100%;
+  display: block;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}*/
+
 .work2 {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   display: flex;
   margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .work2 a {
@@ -334,18 +365,17 @@ p {
 }
 
 .work_a {
-  width: 500px;
+  width: 80%;
   height: 250px;
   margin: 5px 5px 5px 5px;
   /* top, right, bottom, left */
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
 
 .work_a2 {
-  width: 500px;
+  width: 100%;
   height: 250px;
   margin: 5px 5px 5px 5px;
   /* top, right, bottom, left */
@@ -360,15 +390,16 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 75%;
+  width: 100%;
 
 }
 
 .work_b {
-  width: 500px;
-  height: 250px;
   margin: 5px 5px 5px 5px;
-
+  width: 90%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
 }
 
 .work_b img {
@@ -379,27 +410,24 @@ p {
 }
 
 
-.highlight-on-hover:hover {
-/*  width: width: 500px;*/
-/*  height: 250px;*/
+/*.highlight-on-hover:hover {
   background-color: hsl(30, 60%, 50%, .50);
   box-shadow: inset 0 0 15px hsla(180, 100%, 25%, .90);
-}
+}*/
 
 .pubs {
-  width: 200px;
+  width: 100%;
   height: 250px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+
 /*  flex-direction: column;*/
 
 }
 
 .pub-tainer {
-  width: 200px;
-  height: 250px;
-  padding: 5px 5px 5px 5px;
+  width: 80%;
+  height: 150px;
   /* top, right, bottom, left */
   display: flex;
   justify-content: center;
@@ -492,10 +520,9 @@ p {
 }
 
 .special {
-  width: 500px;
+  width: 100%;
   height: 250px;
   margin: 5px 5px 5px 5px;
-  /* top, right, bottom, left */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -571,14 +598,14 @@ p {
 }
 
 .writ {
-  width: 90%;
+  width: 95%;
   height: auto;
   justify-content: flex-start;
 
 }
 
 .her-ti {
-  width: 100%;
+  width: 98%;
   height: 75px;
 }
 
@@ -611,13 +638,13 @@ p {
 }
 
 .about-mini {
-  width: 40%;
-  margin-right: 20px;
+  width: 50%;
+  margin-right: 5px;
 }
 
 .ab-min-im {
-  width:30%;
-  margin-left: 20px;
+  width:40%;
+  margin-left: 5px;
   object-fit: cover;
 
 }
@@ -629,7 +656,7 @@ p {
 }
 
 .about {
-  width: 45%;
+  width: 80%;
   margin-right: 40px;
 
 }
@@ -649,15 +676,21 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
-  width: 100vw;
+  margin-top: 300px;
+  width: 100%;
 }
 
 .big-holder2 {
-  width: 350px;
+  width: 80vw;
   height: auto;
   align-items: flex-start;
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+}
+
+.no-dec {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
 }
