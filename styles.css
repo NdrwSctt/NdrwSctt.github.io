@@ -27,7 +27,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsl(30, 40%, 80%, .97);
+  background-color: hsl(30, 100%, 95%, 1);
   pointer-events: none;
   z-index: -1;
 }
@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   z-index: 1;
-  background-color: hsla(30, 100%, 75%, .9);
+  background-color: hsla(30, 100%, 95%, .95);
 
 }
 
@@ -125,8 +125,8 @@
   position: absolute;
   min-width: 250px;
   z-index: 1;
-  background-color: hsla(30, 100%, 75%, .9);
-
+  background-color: hsla(30, 100%, 95%, .95);
+  margin-top: 20px;
 }
 
 .dropdown.active .dropdown-content {
@@ -141,7 +141,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: hsla(30, 100%, 75%, .9);
+  background-color: hsla(30, 100%, 85%, .9);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 }
@@ -157,8 +157,8 @@
 h1 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Elsie";
-  color: hsl(150, 100%, 20%);
-  text-shadow: 3px 3px 1px hsla(180, 100%, 50%, 1);
+  color: hsl(150, 100%, 10%);
+/*  text-shadow: 3px 3px 1px hsla(180, 100%, 50%, 1);*/
   font-weight: normal;
   font-size: 34px;
   text-align: center;
@@ -166,9 +166,8 @@ h1 {
 
 h2 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Oi";
-  color: hsl(165, 100%, 17%);
-  text-shadow: 5px 5px 5px hsla(185, 100%, 50%, 1);
+  font-family: "Caprasimo";
+  color: hsl(165, 100%, 10%);
   font-weight: normal;
   font-size: 80px;
   text-align: center;
@@ -177,8 +176,8 @@ h2 {
 
 h3 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Ultra";
-  color: hsl(180, 100%, 20%);
+  font-family: "Caprasimo";
+  color: hsl(180, 100%, 10%);
 /*  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);*/
   font-weight: normal;
   font-size: 30px;
@@ -187,18 +186,23 @@ h3 {
 
 h4 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "DM Serif Text";
-  color: hsl(220, 100%, 30%);
+  font-family: "Calistoga";
+  color: hsl(220, 100%, 10%);
 /*  text-shadow: 2px 2px 1px hsla(220, 100%, 80%, 1);*/
   font-weight: bold;
   font-size: 20px;
   text-align: left;
 }
 
+h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h5 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Ultra";
-  color: hsl(180, 100%, 20%);
+  font-family: "Gloock";
+  color: hsl(180, 100%, 10%);
 /*  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);*/
   font-weight: bold;
   font-size: 18px;
@@ -209,8 +213,8 @@ h5 {
 
 h6 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Ultra";
-  color: hsl(190, 100%, 25%);
+  font-family: "Caprasimo";
+  color: hsl(190, 100%, 10%);
   font-weight: normal;
   font-size: 30px;
   margin: 0 0 0 0;
@@ -219,8 +223,8 @@ h6 {
 
 .h7 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Elsie";
-  color: hsl(190, 100%, 25%);
+  font-family: "Calistoga";
+  color: hsl(190, 100%, 10%);
   font-weight: normal;
   font-size: 50px;
   margin: 0 0 0 0;
@@ -229,8 +233,8 @@ h6 {
 
 .h8 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Elsie";
-  color: hsl(190, 100%, 25%);
+  font-family: "Calistoga";
+  color: hsl(190, 100%, 10%);
   font-weight: normal;
   font-size: 50px;
   margin: 0 0 0 0;
@@ -239,17 +243,29 @@ h6 {
 
 .h9 {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: "Elsie";
-  color: hsl(190, 100%, 25%);
+  font-family: "Calistoga";
+  color: hsl(190, 100%, 10%);
   font-weight: normal;
   font-size: 30px;
   margin: 0 0 0 0;
   text-align: right;
 }
 
+.h10 {
+  font-family: "Bodoni Moda";
+  color: hsl(220, 100%, 10%);
+  font-size: 20px;
+  text-align: left;
+  margin: 0 0 0 0;
+  line-height: 1.75;
+  word-spacing: 1.5;
+  font-weight: bold;
+  justify-content: center;
+}
+
 p {
   font-family: "Merriweather";
-  color: hsl(220, 100%, 20%);
+  color: hsl(220, 100%, 10%);
   font-size: 20px;
   text-align: left;
   margin: 0 0 0 0;
@@ -378,10 +394,8 @@ work_a a {
 
 
 .highlight-on-hover:hover {
-/*  width: width: 500px;*/
-/*  height: 250px;*/
-  background-color: hsl(30, 60%, 50%, .50);
-  box-shadow: inset 0 0 15px hsla(180, 100%, 25%, .90);
+  background-color: hsla(30, 100%, 90%, .9);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .pubs {
