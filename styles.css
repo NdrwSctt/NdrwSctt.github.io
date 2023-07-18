@@ -252,6 +252,7 @@ h6 {
 }
 
 .h10 {
+  -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Bodoni Moda";
   color: hsl(220, 100%, 10%);
   font-size: 20px;
@@ -264,6 +265,7 @@ h6 {
 }
 
 p {
+  -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Merriweather";
   color: hsl(220, 100%, 10%);
   font-size: 25px;
