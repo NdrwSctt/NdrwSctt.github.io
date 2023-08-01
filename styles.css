@@ -335,8 +335,7 @@ p {
 }
 
 .work_a {
-  max-width: 500px;
-  min-width: 300px;
+  width: 500px;
   height: 250px;
   margin: 5px 5px 5px 5px;
   /* top, right, bottom, left */
@@ -354,8 +353,7 @@ work_a a {
 }
 
 .work_a2 {
-  max-width: 500px;
-  min-width: 300px;
+  width: 500px;
   height: 250px;
   margin: 5px 5px 5px 5px;
   /* top, right, bottom, left */
@@ -375,8 +373,7 @@ work_a a {
 }
 
 .work_b {
-  max-width: 500px;
-  min-width: 300px;
+  width: 500px;
   height: 250px;
   margin: 5px 5px 5px 5px;
 
@@ -500,8 +497,7 @@ work_a a {
 }
 
 .special {
-  max-width: 500px;
-  min-width: 300px;
+  width: 500px;
   height: 250px;
   margin: 5px 5px 5px 5px;
   /* top, right, bottom, left */
