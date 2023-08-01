@@ -8,26 +8,13 @@
   display: none;
 }
 
-/*.bg-im {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("bread.gif");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  z-index: -1;
-}*/
-
 .overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsl(30, 100%, 95%, 1);
+  background-color: hsl(59, 100%, 98%, 1);
   pointer-events: none;
   z-index: -1;
 }
@@ -43,7 +30,7 @@
   justify-content: center;
   align-items: center;
   z-index: 1;
-  background-color: hsla(30, 100%, 95%, .95);
+  background-color: hsla(59, 100%, 98%, .95);
 
 }
 
@@ -124,9 +111,8 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 250px;
   z-index: 1;
-  background-color: hsla(30, 100%, 95%, .95);
+  background-color: hsla(59, 100%, 98%, .95);
   margin-top: 20px;
 }
 
@@ -142,7 +128,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: hsla(30, 100%, 85%, .9);
+  background-color: hsla(59, 100%, 95%, .9);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 }
@@ -158,7 +144,7 @@
 h1 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Elsie";
-  color: hsl(150, 100%, 10%);
+  color: hsl(220, 100%, 3%);
 /*  text-shadow: 3px 3px 1px hsla(180, 100%, 50%, 1);*/
   font-weight: normal;
   font-size: 34px;
@@ -168,7 +154,7 @@ h1 {
 h2 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Caprasimo";
-  color: hsl(165, 100%, 10%);
+  color: hsl(220, 100%, 3%);
   font-weight: normal;
   font-size: 80px;
   text-align: center;
@@ -178,8 +164,7 @@ h2 {
 h3 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Caprasimo";
-  color: hsl(180, 100%, 10%);
-/*  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);*/
+  color: hsl(220, 100%, 3%);
   font-weight: normal;
   font-size: 30px;
   text-align: left;
@@ -188,8 +173,7 @@ h3 {
 h4 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Calistoga";
-  color: hsl(220, 100%, 10%);
-/*  text-shadow: 2px 2px 1px hsla(220, 100%, 80%, 1);*/
+  color: hsl(220, 100%, 3%);
   font-weight: bold;
   font-size: 20px;
   text-align: left;
@@ -203,8 +187,7 @@ h4 a {
 h5 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Gloock";
-  color: hsl(180, 100%, 10%);
-/*  text-shadow: 2px 2px 1px hsla(180, 100%, 50%, 1);*/
+  color: hsl(220, 100%, 3%);
   font-weight: bold;
   font-size: 18px;
   text-align: left;
@@ -215,7 +198,7 @@ h5 {
 h6 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Caprasimo";
-  color: hsl(190, 100%, 10%);
+  color: hsl(220, 100%, 3%);
   font-weight: normal;
   font-size: 30px;
   margin: 0 0 0 0;
@@ -225,7 +208,7 @@ h6 {
 .h7 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Calistoga";
-  color: hsl(190, 100%, 10%);
+  color: hsl(220, 100%, 3%);
   font-weight: normal;
   font-size: 50px;
   margin: 0 0 0 0;
@@ -235,7 +218,7 @@ h6 {
 .h8 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Calistoga";
-  color: hsl(190, 100%, 10%);
+  color: hsl(220, 100%, 3%);
   font-weight: normal;
   font-size: 50px;
   margin: 0 0 0 0;
@@ -245,7 +228,7 @@ h6 {
 .h9 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Calistoga";
-  color: hsl(190, 100%, 10%);
+  color: hsl(220, 100%, 3%);
   font-weight: normal;
   font-size: 30px;
   margin: 0 0 0 0;
@@ -255,7 +238,7 @@ h6 {
 .h10 {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Bodoni Moda";
-  color: hsl(220, 100%, 10%);
+  color: hsl(220, 100%, 3%);
   font-size: 20px;
   text-align: left;
   margin: 0 0 0 0;
@@ -265,16 +248,27 @@ h6 {
   justify-content: center;
 }
 
-p {
+.abt {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: "Merriweather";
-  color: hsl(220, 100%, 10%);
+  color: hsl(220, 100%, 3%);
   font-size: 18px;
   text-align: left;
   margin: 0 0 0 0;
   line-height: 1.75;
   word-spacing: 1.5;
-  font-weight: bold;
+  text-indent: 20px;
+}
+
+p {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "Merriweather";
+  color: hsl(220, 100%, 3%);
+  font-size: 18px;
+  text-align: left;
+  margin: 0 0 0 0;
+  line-height: 1.75;
+  word-spacing: 1.5;
 }
 
 
@@ -395,7 +389,7 @@ work_a a {
 
 
 .highlight-on-hover:hover {
-  background-color: hsla(30, 100%, 90%, .9);
+  background-color: hsla(59, 100%, 90%, .9);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -532,7 +526,7 @@ work_a a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 229px;
+  margin-top: 200px;
   width: 100vw;
 }
 
@@ -586,8 +580,8 @@ work_a a {
   height: auto;
   align-items: flex-start;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 75px;
+  margin-bottom: 250px;
   justify-content: center;
 }
 
@@ -650,13 +644,13 @@ work_a a {
 }
 
 .about {
-  width: 45%;
+  width: 69%;
   margin-right: 40px;
 
 }
 
 .abt-pic {
-  width: 290px;
+  width: 500px;
   height: 100%;
   object-fit: fill;
   background-image: url("m2.jpeg");
