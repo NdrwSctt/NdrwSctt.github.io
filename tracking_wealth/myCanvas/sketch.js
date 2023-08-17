@@ -23,30 +23,38 @@ function draw() {
     eReSize = eSize;
     workerSize = 1;
     aNote = 'black';
-    bNote = 'black';
     posY = height / 2;
     posX = width / 2;
     aPosY = height / 2;
     aPosX = width / 2;
+    if (eReSize > 2828.42) {
+      bNote = 'black';
+    } else {
+      bNote = color(0, 0, 0, 0);
+    }
+
     function calculateEllipseArea(a, b) {
       return Math.PI * a * b;
     }
 
-    function calculatePercentageOutsideCanvas(canvasWidth, canvasHeight, ellipseDiameter) {
-      var canvasArea = canvasWidth * canvasHeight;
-      var ellipseRadius = ellipseDiameter / 2;
-      var ellipseArea = calculateEllipseArea(ellipseRadius, ellipseRadius);
+    let canvasWidth = 2000;
+    let canvasHeight = 2000;
+    let ellipseDiameter = eSize;
 
-      var percentageOutside = ((ellipseArea - canvasArea) / ellipseArea) * 100;
+    function calculatePercentageOutsideCanvas(canvasWidth, canvasHeight, ellipseDiameter) {
+      let canvasArea = canvasWidth * canvasHeight;
+      let ellipseRadius = ellipseDiameter / 2;
+      let ellipseArea = calculateEllipseArea(ellipseRadius, ellipseRadius);
+
+      var percentageOutside = ((canvasArea) / ellipseArea) * 100;
       return percentageOutside.toFixed(2); // Round to 2 decimal places
     }
 
-    var canvasWidth = 2000;
-    var canvasHeight = 2000;
-    var ellipseDiameter = eSize;
+    
 
     var percentageOutside = calculatePercentageOutsideCanvas(canvasWidth, canvasHeight, ellipseDiameter);
-    console.log('Percentage outside canvas:', percentageOutside + '%');
+    console.log('Percentage outside canvas:', percentageOutside + '%' + eReSize);
+
 
   } else {
     workerSize = 5;
@@ -117,7 +125,7 @@ function draw() {
   fill(bNote);
   textAlign(CENTER);
   textSize(10);
-  text(Math.round((100 - percentageOutside) * 100)/100 + '% of CEO portion visable', aPosX, aPosY - 35);
+  text(Math.round((percentageOutside) * 100)/100 + '% of CEO portion visable', aPosX, aPosY - 35);
 
   fill('black');
   textAlign(LEFT); // Set text alignment to LEFT and CENTER
