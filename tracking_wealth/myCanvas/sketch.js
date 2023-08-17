@@ -8,7 +8,7 @@ var aPosX, aPosY;
 var bizName = ''
 
 function setup() {
-  let canvasSize = min(eSize * 500, 3500)
+  let canvasSize = min(eSize * 500, 2000)
   createCanvas(canvasSize, canvasSize);
   angleMode(DEGREES);
   colorMode(HSB, 360, 100, 100, 100);
@@ -41,8 +41,8 @@ function draw() {
       return percentageOutside.toFixed(2); // Round to 2 decimal places
     }
 
-    var canvasWidth = 3000;
-    var canvasHeight = 3000;
+    var canvasWidth = 2000;
+    var canvasHeight = 2000;
     var ellipseDiameter = eSize;
 
     var percentageOutside = calculatePercentageOutsideCanvas(canvasWidth, canvasHeight, ellipseDiameter);
@@ -117,7 +117,7 @@ function draw() {
   fill(bNote);
   textAlign(CENTER);
   textSize(10);
-  text(100 - Math.round(percentageOutside) + '% of CEO portion visable', aPosX, aPosY - 35);
+  text(Math.round((100 - percentageOutside) * 100)/100 + '% of CEO portion visable', aPosX, aPosY - 35);
 
   fill('black');
   textAlign(LEFT); // Set text alignment to LEFT and CENTER
