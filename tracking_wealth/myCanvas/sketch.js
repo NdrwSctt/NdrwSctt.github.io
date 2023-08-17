@@ -8,7 +8,8 @@ var aPosX, aPosY;
 var bizName = ''
 
 function setup() {
-  createCanvas(3500, 3500);
+  let canvasSize = min(eSize * 500, 3500)
+  createCanvas(canvasSize, canvasSize);
   angleMode(DEGREES);
   colorMode(HSB, 360, 100, 100, 100);
   noStroke();
