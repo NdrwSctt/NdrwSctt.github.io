@@ -91,7 +91,7 @@ var story5 = `
 <p>
 I was biking to the library again but stopping by Plantation Promenade 
 first. I think I must have been 
-depositing a check a the bank on the corner. I thought maybe, I was 
+depositing a check at the bank on the corner. I thought maybe, I was 
 getting something from Publix, but I don't remember having a shopping 
 bag. I was listening to this album and hearing tinny 
 speaking parts on the first track, thinking about how it reminded me of 
@@ -126,7 +126,7 @@ This is the bus stop I would use to get to the mall. I started
 listening to <i>Bleach</i> again, an album I enjoyed since middle school. 
 The line "You're in high school again" really resonated with me because 
 I was living with my parents and taking the bus just like in high school. 
-I also, "About a Girl" reminded me of how I was so broke before leaving NY the person I was hooking up with
+Also, "About a Girl" reminded me of how I was so broke before leaving NY the person I was hooking up with
 had to pay for everything even though she was younger than me.
 </p>
 `
@@ -186,20 +186,18 @@ undergrad when I started getting into poetry as an adult.
 
 var story12 = `
 <p>
-I became obsessed with James Ferraro after he released <i>Cold</i> when I 
-was in New York. I got into his instrumental work, particularly <i>Suki Girlz</i> 
-because it was so great to have on while reading. Somehow I didn't get 
-around to hearing this album till after I moved back home. I remember 
-listening to it in my mom's car in the parking lot of this shopping center 
-after I got a job working as a dishwasher at a pizza place I had been 
-going to since I was a little kid. This was before I started working at the 
-mall. He says, "She called out / Fuck this mattress, can't do it." It made 
-me think about throwing my mattress out on the street after my lease 
-ended because I had no money. I was taking what I could carry to my 
-friend's apartment to sleep on his couch, where I would live with him and 
-his girlfriend for two months. At one point, he kicked me out to have a 
-romantic night with her and wouldn't let me back in till 2 am. I went to 
-different bars in the area, reading Norman Mailer's <i>Barbary Shore</i>.
+I became obsessed with James Ferraro after he released Cold when I was in New York. 
+I got into his instrumental work, particularly Suki Girlz, because it was so great 
+to have on while reading. Somehow I didn't get around to hearing this album till 
+after I moved back home. I remember listening to it in my mom's car in the parking 
+lot of this shopping center after I got a job working as a dishwasher at a pizza place 
+I had been going to since I was a little kid. This was before I started working at the 
+mall. He says, "She called out / Fuck this mattress, can't do it." It made me think 
+about throwing my mattress out on the street after my lease ended because I had no 
+money. I was taking what I could carry to my friend's apartment to sleep on his couch, 
+where I would live with him and his girlfriend for two months. At one point, he kicked 
+me out to have a romantic night with her and wouldn't let me back in till 2 am. I went 
+to different bars in the area, reading Norman Mailer's <i>Barbary Shore</i>.
 </p>
 `
 
