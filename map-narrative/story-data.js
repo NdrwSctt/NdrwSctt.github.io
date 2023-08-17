@@ -30,7 +30,7 @@ var story2 = `
 <p>
 Like Bowie, I would spend several months obsessing over an Ariel Pink 
 album as I went through his discography, except, for Ariel's, I just kind 
-of picked titles that spoke to me at that time of my life. At this point, I 
+of picked titles that spoke to me at that time. At this point, I 
 was feeling relatively hopeless and had listened to pretty much 
 everything by him except this, which I got from a torrent of his albums. 
 This album isn't on streaming; it was released locally in California on 
@@ -41,10 +41,10 @@ album from an artist who's already an oddball.
 </p><p>
 Sometimes I would just go riding 
 aimlessly to be away from my family. I think when I left, they were 
-fighting about me. There's a song called "Shower Me With Lipstick" 
+fighting about me. There's a song called "Shower Me With Lipstick," 
 where the guitar part sounds like the gears of a bike moving. A 
 completely different version appeared on the album he released that 
-year in 2015. It appears  on one track containing several songs titled 
+year in 2015. It's featured on one track containing several songs titled 
 "Stevie Storm." There's also a song on this track called "Tryin' to Tell Ya 
 About Kinkaid" that I became re-obsessed with a couple of years later 
 for a different reason, but at the time, I found the hyperpaced tempo 
@@ -106,7 +106,7 @@ var story6 = `
 After the <i>Piper at the Gates of Dawn</i> memory, I started listening 
 to this album, taking Central Park Pl to get to Broward. It was my day off 
 from the mall, and I was going to the library to apply for more jobs. I 
-wanted an entry-level position in copywriting,  job I had searched for
+wanted an entry-level position in copywriting, a job I had searched for
 since I moved to New York. I was passing the ramp for cars to exit the 
 gas station listening to "Set the Controls for the Heart of the Sun." I 
 remember seeing the back of the woman's ponytail as she was looking 
@@ -136,8 +136,8 @@ var story8 = `
 It was my day off at the mall, or the next day was my day off. A little tipsy, I 
 disassociated for a moment and saw myself with a demon hovering over my right 
 shoulder, gesturing to my right, thinking I was dying for a second 
-before collecting myself and continuing to Walgreens. I was listening to 
-Elliott Smith's self-titled. I can't remember the song.
+before collecting myself and continuing to Walgreens. It was really dark out.
+I was listening to Elliott Smith's self-titled. I can't remember the song.
 </p>
 `
 
