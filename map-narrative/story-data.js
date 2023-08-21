@@ -186,8 +186,8 @@ undergrad when I started getting into poetry as an adult.
 
 var story12 = `
 <p>
-I became obsessed with James Ferraro after he released Cold when I was in New York. 
-I got into his instrumental work, particularly Suki Girlz, because it was so great 
+I became obsessed with James Ferraro after he released <i>Cold</i> when I was in New York. 
+I got into his instrumental work, particularly <i>Suki Girlz</i>, because it was so great 
 to have on while reading. Somehow I didn't get around to hearing this album till 
 after I moved back home. I remember listening to it in my mom's car in the parking 
 lot of this shopping center after I got a job working as a dishwasher at a pizza place 
