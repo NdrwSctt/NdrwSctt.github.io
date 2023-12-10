@@ -13,17 +13,17 @@ infoData = {
         "type": "Point"
       }
     },
-    {
-      "type": "Feature",
-      "properties": {"name": "Yas Dudette", "group_name": "On Bike", "group_id": 2, "placeName": "Yas Dudette", "story": story2, "color": "#98FFFC", "radius": "4" },
-      "geometry": {
-        "coordinates": [
-          -80.26274465393003,
-          26.125619582701034
-        ],
-        "type": "Point"
-      }
-    },
+    // {
+    //   "type": "Feature",
+    //   "properties": {"name": "Yas Dudette", "group_name": "On Bike", "group_id": 2, "placeName": "Yas Dudette", "story": story2, "color": "#98FFFC", "radius": "4" },
+    //   "geometry": {
+    //     "coordinates": [
+    //       -80.26274465393003,
+    //       26.125619582701034
+    //     ],
+    //     "type": "Point"
+    //   }
+    // },
     // {
     //   "type": "Feature",
     //   "properties": {"name": "Lie: The Love and Terror Cult", "group_name": "On Bike", "group_id": 3, "placeName": "Lie: The Love and Terror Cult", "story": story3, "color": "#01FE26", "radius": "15" },
