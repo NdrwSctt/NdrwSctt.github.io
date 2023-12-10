@@ -38,23 +38,23 @@ cassette; several versions exist. I have no clue how it was digitized. It's
 still not available to purchase anywhere, but most of the songs now 
 appear in some form on different releases. It's an extremely queer 
 album from an artist who's already an oddball. 
-</p><p>
-Sometimes I would just go riding 
-aimlessly to be away from my family. I think when I left, they were 
-fighting about me. There's a song called "Shower Me With Lipstick," 
-where the guitar part sounds like the gears of a bike moving. A 
-completely different version appeared on the album he released that 
-year in 2015. It's featured on one track containing several songs titled 
-"Stevie Storm." There's also a song on this track called "Tryin' to Tell Ya 
-About Kinkaid" that I became re-obsessed with a couple of years later 
-for a different reason, but at the time, I found the hyperpaced tempo 
-really fun to bike to. The title song on the track is a cover of Harry Merry, 
-which Ariel can be heard panting on. I have a distinct memory of riding 
-down this street, listening to it at night, and feeling like a complete trash 
-human. I can't remember the first time I actually put this record on, but I 
-became gripped by it because of the very first track, "Bogalusa, 
-Louisiana."
-</p>
+// </p><p>
+// Sometimes I would just go riding 
+// aimlessly to be away from my family. I think when I left, they were 
+// fighting about me. There's a song called "Shower Me With Lipstick," 
+// where the guitar part sounds like the gears of a bike moving. A 
+// completely different version appeared on the album he released that 
+// year in 2015. It's featured on one track containing several songs titled 
+// "Stevie Storm." There's also a song on this track called "Tryin' to Tell Ya 
+// About Kinkaid" that I became re-obsessed with a couple of years later 
+// for a different reason, but at the time, I found the hyperpaced tempo 
+// really fun to bike to. The title song on the track is a cover of Harry Merry, 
+// which Ariel can be heard panting on. I have a distinct memory of riding 
+// down this street, listening to it at night, and feeling like a complete trash 
+// human. I can't remember the first time I actually put this record on, but I 
+// became gripped by it because of the very first track, "Bogalusa, 
+// Louisiana."
+// </p>
 `
 
 var story3 = `
