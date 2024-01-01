@@ -1,125 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Andrew Scott</title>
-	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Angkor&family=Bagel+Fat+One&family=Bodoni+Moda&family=Calistoga&family=Caprasimo&family=Chango&family=Comic+Neue:wght@700&family=Cutive+Mono&family=DM+Serif+Text&family=Elsie:wght@900&family=Ewert&family=Gloock&family=Gravitas+One&family=Hepta+Slab:wght@300&family=Karma&family=Merriweather:ital@0;1&family=Modak&family=Nixie+One&family=Oi&family=Pacifico&family=Rock+3D&family=Rye&family=Ultra&family=Yeseva+One&display=swap" rel="stylesheet">
-	<script src="script.js"></script>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="mobile.css" media="(max-width: 1160px)">
-	<meta property="og:title" content="Andrew Scott">
-  	<meta property="og:description" content="Andrew Scott's Portfolio">
-  	<meta property="og:image" content="m2.jpeg">
-  	<meta property="og:url" content="ndrwsctt.github.io">
-  	<link rel="icon" type="image/x-icon" href="blnk.ico">
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			var dropdowns = document.getElementsByClassName("dropdown");
-			for (var i = 0; i < dropdowns.length; i++) {
-				dropdowns[i].addEventListener("click", function(event) {
-				event.stopPropagation(); // Prevent the click event from propagating further
-				this.classList.toggle("active");
-		    	});
-			}
-
-			document.addEventListener("click", function() {
-				var activeDropdowns = document.getElementsByClassName("dropdown active");
-
-		    	for (var i = 0; i < activeDropdowns.length; i++) {
-		      	activeDropdowns[i].classList.remove("active");
-		    	}
-		  	});
-		});
-
-	</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Protected Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+  </style>
 </head>
-<header>
-</header>
 <body>
-	<div class="bg-im"></div>
-	<div class="overlay"></div>
-	<div class="nav-hold">
-		<div class="nav">
-			<div id="node" class="l-nav">
-				<div class="local"><a href="about.html" class="no-dec"><p class="h10">About</p></a></div>
-				<div class="local">
-					<div class="dropdown">
-				    <div class="dropbtn"><p class="h10">Work</p></div>
-					    <div class="dropdown-content">
-					      <a href="writing.html"><p class="h10">Writing</p></a>
-					      <a href="media.html"><p class="h10">Media</p></a>
-					      <a href="data.html"><p class="h10">Data</p></a>
-					    </div>
-					</div>		
-				</div>
-				<div class="local"><a href="andrew-scott-resume.pdf" class="no-dec" target="_blank"><p class="h10">Resume</p></a></div>
-			</div>
-			<div id="node" class="title"><a href="index.html" class="no-dec"><h6>Andrew Scott</h6></a></div>
-			<div id="node" class="contact">
-				<div class="mail"><a href="mailto:andrewscott@newschool.edu" class="no-dec"><p class="h10">Contact</p></a></div>
-				<div class="soc"><a href="https://www.linkedin.com/in/andrew-joseph-scott/" target="_blank"><img src="soc1.png" class="social"></a></div>
-				<div class="soc"><a href="https://twitter.com/Andrew_Stuff" target="_blank"><img src="soc2.png" class="social"></a></div>
-				<div class="soc"><a href="https://www.instagram.com/_andyou_/" target="_blank"><img src="soc3.png" class="social"></a></div>
-			</div>
-		</div>
-	</div>
-	<div class="nav-hold">
-		<div class="nav-mob">
-			<div id="node" class="title"><a href="index.html" class="no-dec"><h6>Andrew Scott</h6></a></div>
-			<div class="dropdown">
-		    	<div class="dropbtn"><h6>+</h></div>
-			    <div class="dropdown-content">
-			    	<div class="drop-org">
-				    	<a href="about.html"><p class="h10">About</p>
-				    	<a href="writing.html"><p class="h10">Writing</p></a>
-				      	<a href="media.html"><p class="h10">Media</p></a>
-				      	<a href="data.html"><p class="h10">Data</p></a>
-				      	<a href="andrew-scott-resume.pdf"><p class="h10">Resume</p></a>
-				      	<a href="mailto:andrewscott@newschool.edu"><p class="h10">Contact</p></a>
-				      	<div class="socials">
-					      	<a href="https://www.linkedin.com/in/andrew-joseph-scott/" target="_blank"><img src="soc1.png" class="social"></a>
-					      	<a href="https://twitter.com/Andrew_Stuff" target="_blank"><img src="soc2.png" class="social"></a>
-					      	<a href="https://www.instagram.com/_andyou_/" target="_blank"><img src="soc3.png" class="social"></a>
-				      	</div>
-				    </div>
-			    </div>
-			</div>	
-		</div>
-	</div>
-	<div class="retainer">
-		<!-- <div class="big-holder">
-			<div class="hero">
-				<div class="me"></div>
-				<div class="post"><h2>Editing <br> Writing <br> Media</h2></div>
-			</div>	
-		</div> -->
-		<a href="writing.html" class="no-dec"><div class="hero2">
-			<div class="writ">
-				<div class="her-ti"><p class="h7">Writing for...</p></div>
-				<div class="her-im">
-					<img src="writ1.jpg" class="her-im-it">
-					<img src="writ2.jpg" class="her-im-it">
-					<img src="writ3.jpg" class="her-im-it">
-					<img src="writ4.jpg" class="her-im-it">
-				</div>
-			</div>
-		</div></a>
-		<!-- <div class="hero2">
-			<div class="writ">
-				<div class="cw">
-					<div class="about-mini"><p class="h9">Passionate about language, offering communication-based solutions, and conscientious leadership, I'm eager to share and hungry to learn.</p></div>
-					<img src="m5.jpeg" class="ab-min-im"></a>
-				</div>
-			</div>
-		</div> -->
-		<div class="hero2">
-			<div class="writ">
-				<div class="her-ti"><p class="h8">Aditional Projects</p></div>
-				<div class="cw">
-					<a href="media.html" class="cw-it-link"><img src="ar-proj.gif" class="cw-it"></a>
-					<a href="data.html" class="cw-it-link"><img src="dada.gif" class="cw-it"></a>
-				</div>
-			</div>
-		</div>
-	</div>
+
+<form id="passwordForm">
+  <label for="password">Enter Password: </label>
+  <input type="password" id="password" required>
+  <button type="button" onclick="checkPassword()">Submit</button>
+</form>
+
+<script>
+  // Replace 'your_password' with the actual password
+  const correctPassword = 'ryfgab';
+
+  function checkPassword() {
+    const enteredPassword = document.getElementById('password').value;
+
+    if (enteredPassword === correctPassword) {
+      // Password is correct, redirect to the protected content
+      window.location.href = 'home.html';
+    } else {
+      alert('Incorrect password. Try again.');
+      // Clear the input field for another attempt
+      document.getElementById('password').value = '';
+    }
+  }
+</script>
+
 </body>
 </html>
